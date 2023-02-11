@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="root";
-$password="ishaan930838";
+$password="1234";
 $db_name="feedback_management";
 
 $con=mysqli_connect($host,$user,$password,$db_name);
