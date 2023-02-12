@@ -1,8 +1,8 @@
 <?php
 $host="localhost";
-$user="fcsldba";
-$password="Junaid_123";
-$db_name="fcsldb";
+$user="root";
+$password="ishaan930838";
+$db_name="feedback_management";
 
 $con=mysqli_connect($host,$user,$password,$db_name);
 if(mysqli_connect_errno()){
