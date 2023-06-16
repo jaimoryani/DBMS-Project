@@ -27,7 +27,7 @@ function sendPassword($email, $password)
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom('replytofeedbackmanagement@gmail.com', 'Mailer');
+        $mail->setFrom('replytofeedbackmanagement@gmail.com', 'Student Feedback System');
         $mail->addAddress($email);     //Add a recipient
         //Name is optional
 
