@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
-$user="fcsldba";
-$password="Junaid_123";
+$user="root";
+$password="12345";
 $db_name="fcsldb";
 
 $con=mysqli_connect($host,$user,$password,$db_name);
