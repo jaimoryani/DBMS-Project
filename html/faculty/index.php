@@ -69,7 +69,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
     <div class="card-group" style="padding-top:10%;padding-bottom:10%;padding-left:20%;padding-right:20%; background-color: rgba(0, 0, 0, 0.558);">
       <div class="row mt-4">
         <div class="col">
-          <div class="card">
+          <div class="card" style="overflow:hidden; white-space:nowrap">
             <img src="../../images/addremove.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Add Students</h5>
@@ -88,9 +88,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
             </div>
           </div>
         </div>
-      </div>
-            <div class="row mt-4">
-        <div class="col">
+                <div class="col">
           <div class="card">
             <img src="../../images/addremove.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -100,7 +98,10 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
             </div>
           </div>
         </div>
-        <div class="col">
+      </div>
+            <div class="col mt-4">
+
+        <!-- <div class="col">
           <div class="card">
             <img src="../../images/feedback.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -109,7 +110,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
               <a class="btn btn-primary" href="view_feedback/" role="button">View Students</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
