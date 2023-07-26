@@ -79,7 +79,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card" style="overflow:hidden; white-space:nowrap">
             <img src="../../images/feedback.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">View Feedback</h5>
@@ -89,7 +89,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
           </div>
         </div>
                 <div class="col">
-          <div class="card">
+          <div class="card" style="overflow:hidden; white-space:nowrap">
             <img src="../../images/addremove.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">View Courses</h5>
